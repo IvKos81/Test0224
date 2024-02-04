@@ -1,0 +1,175 @@
+:root {
+  --main-bgpage: rgba(251, 248, 236, 1);
+  --mainonsurface: rgba(65, 65, 65, 1);
+  --grayscale-hardest: rgba(96, 96, 96, 1);
+  --mainonprimary: rgba(255, 255, 255, 1);
+  --grayscale-light: rgba(191, 191, 191, 1);
+  --mainsecondary: rgba(112, 192, 91, 1);
+  --mainonsecondary: rgba(255, 255, 255, 1);
+  --grayscale-hard: rgba(143, 143, 143, 1);
+  --onsurface: rgba(35, 35, 35, 1);
+  --grayscale-lightest: rgba(243, 242, 241, 1);
+  --main-primary: rgba(255, 102, 51, 1);
+  --mainsecondarymuted: rgba(229, 255, 222, 1);
+  --mainsurface: rgba(255, 255, 255, 1);
+  --mainprimarymuted: rgba(252, 213, 186, 1);
+  --surface: rgba(255, 255, 255, 1);
+  --ffffff: rgba(255, 255, 255, 1);
+  --hard: rgba(117, 115, 113, 1);
+  --palleteonerror: rgba(242, 242, 242, 1);
+  --palleteerror: rgba(216, 0, 0, 1);
+  --palleteerrormuted: rgba(255, 199, 199, 1);
+  --on-surface: rgba(51, 51, 51, 1);
+  --palleteonsuccess: rgba(242, 242, 242, 1);
+  --palletesuccess: rgba(0, 140, 73, 1);
+
+  --default-XS: 1px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  --primary-m: 4px 8px 16px 0px rgba(255, 102, 51, 0.2);
+  --default-s: 2px 4px 8px 0px rgba(0, 0, 0, 0.1);
+  --default-m: 4px 8px 16px 0px rgba(0, 0, 0, 0.1);
+  --secondary-m: 4px 8px 16px 0px rgba(112, 192, 91, 0.2);
+  --secondary-XS: 1px 2px 4px 0px rgba(112, 192, 91, 0.2);
+
+  --banner-primary: 0px 8px 16px 0px rgba(202, 147, 96, 0.5);
+
+  --desc-text-XS-font-family: "Rubik-Regular", Helvetica;
+  --desc-text-XS-font-weight: 400;
+  --desc-text-XS-font-size: 12px;
+  --desc-text-XS-letter-spacing: 0px;
+  --desc-text-XS-line-height: 150%;
+  --desc-text-XS-font-style: normal;
+
+  --desc-text-s-font-family: "Rubik-Regular", Helvetica;
+  --desc-text-s-font-weight: 400;
+  --desc-text-s-font-size: 16px;
+  --desc-text-s-letter-spacing: 0px;
+  --desc-text-s-line-height: 150%;
+  --desc-text-s-font-style: normal;
+
+  --desc-header-l-font-family: "Rubik-Bold", Helvetica;
+  --desc-header-l-font-weight: 700;
+  --desc-header-l-font-size: 48px;
+  --desc-header-l-letter-spacing: 0px;
+  --desc-header-l-line-height: 150%;
+  --desc-header-l-font-style: normal;
+
+  --desc-header-m-font-family: "Rubik-Bold", Helvetica;
+  --desc-header-m-font-weight: 700;
+  --desc-header-m-font-size: 36px;
+  --desc-header-m-letter-spacing: 0px;
+  --desc-header-m-line-height: 150%;
+  --desc-header-m-font-style: normal;
+
+  --desc-text-bold-m-font-family: "Rubik-Bold", Helvetica;
+  --desc-text-bold-m-font-weight: 700;
+  --desc-text-bold-m-font-size: 18px;
+  --desc-text-bold-m-letter-spacing: 0px;
+  --desc-text-bold-m-line-height: 150%;
+  --desc-text-bold-m-font-style: normal;
+
+  --desc-header-s-font-family: "Rubik-Bold", Helvetica;
+  --desc-header-s-font-weight: 700;
+  --desc-header-s-font-size: 24px;
+  --desc-header-s-letter-spacing: 0px;
+  --desc-header-s-line-height: 150%;
+  --desc-header-s-font-style: normal;
+
+  --desc-header-XS-font-family: "Rubik-Bold", Helvetica;
+  --desc-header-XS-font-weight: 700;
+  --desc-header-XS-font-size: 18px;
+  --desc-header-XS-letter-spacing: 0px;
+  --desc-header-XS-line-height: 150%;
+  --desc-header-XS-font-style: normal;
+
+  --text-regular-l-font-family: "CeraRound Pro-Regular", Helvetica;
+  --text-regular-l-font-weight: 400;
+  --text-regular-l-font-size: 18px;
+  --text-regular-l-letter-spacing: 0px;
+  --text-regular-l-line-height: 32px;
+  --text-regular-l-font-style: normal;
+
+  --desc-text-l-font-family: "Rubik-Regular", Helvetica;
+  --desc-text-l-font-weight: 400;
+  --desc-text-l-font-size: 24px;
+  --desc-text-l-letter-spacing: 0px;
+  --desc-text-l-line-height: 150%;
+  --desc-text-l-font-style: normal;
+
+  --mob-text-XS-font-family: "Rubik-Regular", Helvetica;
+  --mob-text-XS-font-weight: 400;
+  --mob-text-XS-font-size: 8px;
+  --mob-text-XS-letter-spacing: 0px;
+  --mob-text-XS-line-height: 150%;
+  --mob-text-XS-font-style: normal;
+
+  --desc-text-bold-s-font-family: "Rubik-Bold", Helvetica;
+  --desc-text-bold-s-font-weight: 700;
+  --desc-text-bold-s-font-size: 16px;
+  --desc-text-bold-s-letter-spacing: 0px;
+  --desc-text-bold-s-line-height: 150%;
+  --desc-text-bold-s-font-style: normal;
+
+  --desc-text-bold-XS-font-family: "Roboto-Bold", Helvetica;
+  --desc-text-bold-XS-font-weight: 700;
+  --desc-text-bold-XS-font-size: 12px;
+  --desc-text-bold-XS-letter-spacing: 0px;
+  --desc-text-bold-XS-line-height: 150%;
+  --desc-text-bold-XS-font-style: normal;
+
+  --desc-text-m-font-family: "Rubik-Regular", Helvetica;
+  --desc-text-m-font-weight: 400;
+  --desc-text-m-font-size: 18px;
+  --desc-text-m-letter-spacing: 0px;
+  --desc-text-m-line-height: 150%;
+  --desc-text-m-font-style: normal;
+
+  --mob-text-m-font-family: "Rubik-Regular", Helvetica;
+  --mob-text-m-font-weight: 400;
+  --mob-text-m-font-size: 14px;
+  --mob-text-m-letter-spacing: 0px;
+  --mob-text-m-line-height: 150%;
+  --mob-text-m-font-style: normal;
+
+  --mob-text-bold-m-font-family: "Rubik-Bold", Helvetica;
+  --mob-text-bold-m-font-weight: 700;
+  --mob-text-bold-m-font-size: 14px;
+  --mob-text-bold-m-letter-spacing: 0px;
+  --mob-text-bold-m-line-height: 150%;
+  --mob-text-bold-m-font-style: normal;
+
+  --mob-text-s-font-family: "Rubik-Regular", Helvetica;
+  --mob-text-s-font-weight: 400;
+  --mob-text-s-font-size: 12px;
+  --mob-text-s-letter-spacing: 0px;
+  --mob-text-s-line-height: 150%;
+  --mob-text-s-font-style: normal;
+
+  --mob-text-bold-l-font-family: "Rubik-Bold", Helvetica;
+  --mob-text-bold-l-font-weight: 700;
+  --mob-text-bold-l-font-size: 20px;
+  --mob-text-bold-l-letter-spacing: 0px;
+  --mob-text-bold-l-line-height: 150%;
+  --mob-text-bold-l-font-style: normal;
+
+  --mob-text-l-font-family: "Rubik-Regular", Helvetica;
+  --mob-text-l-font-weight: 400;
+  --mob-text-l-font-size: 20px;
+  --mob-text-l-letter-spacing: 0px;
+  --mob-text-l-line-height: 150%;
+  --mob-text-l-font-style: normal;
+
+  --mob-text-bold-s-font-family: "Rubik-Bold", Helvetica;
+  --mob-text-bold-s-font-weight: 700;
+  --mob-text-bold-s-font-size: 12px;
+  --mob-text-bold-s-letter-spacing: 0px;
+  --mob-text-bold-s-line-height: 150%;
+  --mob-text-bold-s-font-style: normal;
+
+  --mob-header-XS-font-family: "Rubik-Bold", Helvetica;
+  --mob-header-XS-font-weight: 700;
+  --mob-header-XS-font-size: 16px;
+  --mob-header-XS-letter-spacing: 0px;
+  --mob-header-XS-line-height: 150%;
+  --mob-header-XS-font-style: normal;
+  
+}
