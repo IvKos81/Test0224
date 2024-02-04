@@ -1,15 +1,10 @@
 .element {
   background-color: #faf7ec;
-  /* display: flex;
-  flex-direction: row;
-  justify-content: center; */
   width: 100%;
 }
 
 .element .page {
   background-color: var(--main-bgpage);
-  /* width: 1440px;
-  height: 3803px; */
   position: relative;
   display: flex;
   flex-direction: column;
@@ -27,22 +22,17 @@ header {
 }
 
 .element .main-menu {
-  /* position: absolute; */
   max-width: 1440px;
   padding: 0 8.05%;
   box-sizing: border-box;
   min-height: 72px;
   margin: 0 auto;
-  /* top: 0; */
-  /* left: 0; */
   background-color: var(--surface);
   box-shadow: var(--default-s);
 }
 
 .element .main-menu-container {
   display: flex;
-  /* width: 1208px; */
-  /* height: 72px; */
   align-items: center;
   justify-content: center;
   gap: 40px;
@@ -260,99 +250,12 @@ header {
 /*slider*/
 
 .element .sliders {
-  /* position: absolute; */
   max-width: 1440px;
   width: 100%;
   min-height: 200px;
-  /* top: 76px;
-  left: 0; */
-  /* background-color: var(--mainsurface) */
   background: url('./img/slider-bg.jpg') center no-repeat;
-  /* background-size: cover; */
   overflow: hidden;
 }
-
-/* .element .overlap {
-  position: relative;
-  width: 2016px;
-  height: 252px;
-  top: -26px;
-  left: -288px;
-}
-
-.element .group-bg-patterns {
-  position: absolute;
-  width: 2016px;
-  height: 252px;
-  top: 0;
-  left: 0;
-  mix-blend-mode: multiply;
-  opacity: 0.3;
-}
-
-.element .pattern-2 {
-  position: absolute;
-  width: 252px;
-  height: 252px;
-  top: 1902px;
-  left: 697px;
-}
-
-.element .pattern-3 {
-  position: absolute;
-  width: 216px;
-  height: 200px;
-  top: 26px;
-  left: 288px;
-}
-
-.element .pattern-4 {
-  position: absolute;
-  width: 252px;
-  height: 200px;
-  top: 26px;
-  left: 504px;
-}
-
-.element .pattern-5 {
-  position: absolute;
-  width: 252px;
-  height: 200px;
-  top: 26px;
-  left: 756px;
-}
-
-.element .pattern-6 {
-  position: absolute;
-  width: 252px;
-  height: 200px;
-  top: 26px;
-  left: 1008px;
-}
-
-.element .pattern-7 {
-  position: absolute;
-  width: 252px;
-  height: 200px;
-  top: 26px;
-  left: 1260px;
-}
-
-.element .pattern-8 {
-  position: absolute;
-  width: 216px;
-  height: 200px;
-  top: 26px;
-  left: 1512px;
-}
-
-.element .pattern-9 {
-  position: absolute;
-  width: 252px;
-  height: 252px;
-  top: 1902px;
-  left: 2461px;
-} */
 
 .main-container {
   max-width: 1440px;
@@ -364,21 +267,12 @@ header {
 }
 
 .element .slider-content {
-  /* position: absolute; */
-  /* width: 1208px; */
-  /* height: 200px; */
-  /* top: 26px;
-  left: 404px; */
   margin: 0 auto;
   padding: 0 8.05%;
   height: 100%;
 }
 
 .element .slider-content-container {
-  /* width: 1082px; */
-  /* left: 56px;
-  position: relative; */
-  /* height: 200px; */
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -389,25 +283,17 @@ header {
 }
 
 .element .img-3 {
-  /* position: absolute; */
   width: 335px;
   height: 200px;
-  /* top: 0;
-  left: 0; */
   object-fit: cover;
 }
 
 .element .slider-title {
-  /* position: absolute; */
-  /* height: 72px; */
-  /* top: 62px;
-  left: 331px; */
   text-shadow: 0px 6px 10px #0000004c;
   -webkit-text-stroke: 1px #ffffff;
   font-size: var(--desc-header-l-font-size);
   text-align: center;
   line-height: var(--desc-header-l-line-height);
-  /* white-space: nowrap; */
   font-family: var(--desc-header-l-font-family);
   font-weight: var(--desc-header-l-font-weight);
   color: var(--mainonsurface);
@@ -422,11 +308,7 @@ header {
   flex-direction: column;
   align-items: flex-start;
   gap: 120px;
-  /* position: absolute;
-  top: 356px;
-  left: 116px; */
   margin-top: 80px;
-  /* max-width: 1208px; */
   width: 100%;
   max-width: 1440px;
   padding: 0 8.05%;
@@ -504,7 +386,6 @@ header {
   position: relative;
   align-self: stretch;
   width: 100%;
-  /* flex: 0 0 auto; */
   flex-wrap: wrap;
 }
 
@@ -513,8 +394,6 @@ header {
   flex-direction: column;
   align-items: flex-start;
   position: relative;
-  /* flex: 1;
-  flex-grow: 1; */
   background-color: var(--mainsurface);
   border-radius: 4px;
   overflow: hidden;
@@ -912,7 +791,6 @@ header {
 .element .banner-offer1 {
   position: relative;
   align-self: stretch;
-  /* width: 584px; */
   background-color: var(--mainprimarymuted);
   border-radius: 4px;
   overflow: hidden;
@@ -964,7 +842,6 @@ header {
 .element .banner-offer2 {
   position: relative;
   align-self: stretch;
-  /* width: 584px; */
   background-color: var(--mainsecondarymuted);
   border-radius: 4px;
   overflow: hidden;
@@ -1223,10 +1100,8 @@ header {
   border-radius: 4px;
 }
 
-/* .element .image-5 */
 .element .map {
   position: relative;
-  /* width: 1208px; */
   height: 354px;
   object-fit: cover;
   width: 100%;
@@ -1236,14 +1111,12 @@ header {
 
 .element .news-gallery {
   display: flex;
-  /* height: 420px; */
   align-items: flex-start;
   gap: 40px;
   position: relative;
   align-self: stretch;
   flex-wrap: wrap;
   width: 100%;
-  /* min-height: 428px; */
 }
 
 .element .news-card {
@@ -1253,8 +1126,6 @@ header {
   flex-direction: column;
   align-items: flex-start;
   position: relative;
-  /* flex: 1;
-  flex-grow: 1; */
   background-color: var(--mainsurface);
   border-radius: 4px;
   overflow: hidden;
@@ -1366,11 +1237,6 @@ header {
 /*footer*/
 
 .element .footer {
-  /* position: absolute; */
-  /* width: 1440px; */
-  /* height: 126px; */
-  /* top: 3677px;
-  left: 0; */
   background: url('./img/footer-bg.jpg') center no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -1384,31 +1250,10 @@ header {
 
 .element .footer-container{
   position: relative;
-  /* width: 1512px; */
   min-height: 126px;
   width: 100%;
 }
 
-/* .element .bg {
-  display: inline-flex;
-  align-items: flex-start;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0.5;
-}
-
-.element .pattern {
-  position: relative;
-  width: 126px;
-  height: 126px;
-}
-
-.element .img {
-  position: relative;
-  width: 54px;
-  height: 126px;
-} */
 
 .element .footer-content-container {
   display: inline-flex;
@@ -1416,10 +1261,6 @@ header {
   align-items: flex-start;
   gap: 16px;
   margin-top: 24px;
-  /* position: absolute;
-  top: 24px;
-  left: 167px; */
-
   width: 100%;
 }
 
@@ -1428,11 +1269,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* gap: 133px; */
   flex-wrap: wrap;
-  /* gap: 12.3%; */
-  /* position: relative;
-  flex: 0 0 auto; */
 }
 
 .element .footer-menu-container {
